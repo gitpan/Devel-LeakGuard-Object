@@ -1,5 +1,0 @@
-do{ my $x = {
-       'blib' => 1,
-       'Devel-LeakGuard-Object-*' => 1
-     };
-$x; }
