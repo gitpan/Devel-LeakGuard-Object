@@ -13,7 +13,7 @@ use Devel::LeakGuard::Object::State;
 
 use base qw( Exporter );
 
-our @EXPORT_OK = qw( _adj_magic track leakstate status leakguard );
+our @EXPORT_OK = qw( track leakstate status leakguard );
 
 our %OPTIONS = (
   at_end => 0,
@@ -29,11 +29,11 @@ Devel::LeakGuard::Object - Scoped checks for object leaks
 
 =head1 VERSION
 
-This document describes Devel::LeakGuard::Object version 0.04
+This document describes Devel::LeakGuard::Object version 0.06
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.06';
 
 =head1 SYNOPSIS
 
